@@ -67,7 +67,7 @@ INSERT INTO `tr_tree` (`id`, `name`, `description`, `parent`) VALUES
 CREATE TABLE `tr_users` (
   `id` int(11) NOT NULL,
   `login` varchar(255) DEFAULT NULL,
-  `password` varchar(40) DEFAULT NULL,
+  `password` text DEFAULT NULL,
   `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
