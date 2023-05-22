@@ -1,4 +1,7 @@
 <?php
+// Логин admin
+// Пароль password
+
 session_start();
 if(!isset($_SESSION['login']))
 	header('Location: /');
