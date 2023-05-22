@@ -76,7 +76,7 @@ CREATE TABLE `tr_users` (
 --
 
 INSERT INTO `tr_users` (`id`, `login`, `password`, `created`) VALUES
-(1, 'admin', '1d0258c2440a8d19e716292b231e3190', '2022-03-26 16:15:51');
+(1, 'admin', '$2y$12$jZYNPfgwxdCOIlv3wBEAFOtKgiXEktYemioqjPgEgnxMv85dUMW/.', '2022-03-26 16:15:51');
 
 --
 -- Индексы сохранённых таблиц
